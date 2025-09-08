@@ -1,0 +1,19 @@
+/* Mobile (fino a ~480px) */
+@media (max-width: 480px) { 
+  /* esempio: testo centrato, font più grande per leggibilità */
+}
+
+/* Tablet piccolo / medio (481px – 1024px) */
+@media (min-width: 481px) and (max-width: 1024px) { 
+  /* colonne diventano 2, menu più largo */
+}
+
+/* Laptop / desktop medio (1025px – 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) { 
+  /* griglia a 3 colonne, testo più ampio */
+}
+
+/* Desktop ampio (1441px – 1920px+) */
+@media (min-width: 1441px) { 
+  /* margini laterali più larghi, max-width del contenuto */
+}
